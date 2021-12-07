@@ -1,0 +1,18 @@
+package com.ConditionalLoops;
+
+import java.util.Scanner;
+
+public class Q19 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the height of the pyramid: ");
+        double height = sc.nextInt();
+        System.out.println("Enter the width of the pyramid: ");
+        double width = sc.nextInt();
+        System.out.println("Enter the length of the pyramid: ");
+        double length = sc.nextInt();
+        double volume = (height * width * length) / 3;
+        System.out.println("The volume of the pyramid is: " + volume);
+        sc.close();
+    }
+}
